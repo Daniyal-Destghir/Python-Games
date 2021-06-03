@@ -1,8 +1,10 @@
 import random
 import time
 
-print("1 = HEADS")
-print("2 = TALES")
 random = random.randint(1, 2)
-print(random)
 
+if random == "1":
+  print("It was: Heads")
+  
+if random == "2":
+  print("It was: Tales")
