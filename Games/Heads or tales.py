@@ -1,12 +1,8 @@
 import random
 import time
 
+print("1 = Heads")
+print("2 = Tales")
+
 random = random.randint(1, 2)
-
-if random == "1":
-  print("It was: Heads")
-  
-if random == "2":
-  print("It was: Tales")
-
-  time.sleep(10)
+print(random)
