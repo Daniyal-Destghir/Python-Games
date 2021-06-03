@@ -8,3 +8,5 @@ if random == "1":
   
 if random == "2":
   print("It was: Tales")
+
+  time.sleep(10)
